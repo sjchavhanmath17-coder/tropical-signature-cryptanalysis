@@ -1,2 +1,2 @@
-numpy
-z3-solver
+numpy>=1.23
+z3-solver>=4.12
