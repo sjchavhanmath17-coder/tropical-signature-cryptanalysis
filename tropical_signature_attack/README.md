@@ -1,10 +1,33 @@
-# Cryptanalysis of the GMS26 Tropical Signature Scheme
+# Tropical Signature Cryptanalysis
 
-This repository contains code for the SMT-based key recovery attack and malleability attack.
+This repository contains the implementation and experimental evaluation of attacks on a tropical matrix-based signature scheme.
 
-## Install
+## Repository Structure
+
+src/ – implementation of tropical algebra and the signature scheme
+
+experiments/ – scripts demonstrating the attacks
+
+challenge/ – challenge generation scripts
+
+## Running Experiments
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-## Run experiments
+Run the malleability attack:
+
 python experiments/malleability_demo.py
+
+Run timing experiments:
+
 python experiments/timing_N_signatures.py
+
+## Disclaimer
+
+This code is provided for academic research purposes only.
+
+## Author
+
+Research implementation for cryptanalysis of tropical signature schemes.
