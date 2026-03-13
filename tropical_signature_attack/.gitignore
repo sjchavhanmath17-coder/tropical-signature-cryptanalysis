@@ -1,0 +1,53 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Python extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large datasets (do not upload)
+sample_data/
+data/
+datasets/
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Python compiled artifacts
+*.pyc
+*.pyo
+
+# Coverage / testing
+.coverage
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
