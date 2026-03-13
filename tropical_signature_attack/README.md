@@ -27,9 +27,6 @@ python experiments/timing_N_signatures.py
 
 This code is provided for academic research purposes only.
 
-## Author
-
-Research implementation for cryptanalysis of tropical signature schemes.
 ## Reproducibility
 
 All experiments in the paper can be reproduced by running the scripts in the `experiments` folder.
@@ -38,3 +35,7 @@ Example:
 
 python experiments/malleability_demo.py
 python experiments/timing_N_signatures.py
+## License
+
+This project is released under the MIT License. See the LICENSE file for details.
+
