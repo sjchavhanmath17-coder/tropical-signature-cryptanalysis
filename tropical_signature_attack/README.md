@@ -1,7 +1,6 @@
-# Tropical Signature Cryptanalysis
+# A Comprehensive Break of the Tropical Matrix-Based Signature Scheme
 
-This repository contains the implementation and experimental evaluation of attacks on a tropical matrix-based signature scheme.
-
+This repository contains the implementation and experimental evaluation of attacks on the signature scheme proposed in the recent preprint, Tropical Cryptography IV: Digital Signatures and Secret Sharing with Arbitrary Access Structure
 ## Repository Structure
 
 src/ – implementation of tropical algebra and the signature scheme
